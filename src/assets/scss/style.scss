@@ -18,6 +18,10 @@ body {
             margin: 0 auto;
             color: #fff;
             font-size: 12px;
+
+            .lang, .phone, .mail {
+                cursor: pointer;
+            }
         }
     }
     .header-main {
@@ -27,30 +31,39 @@ body {
             display: flex;
             justify-content: space-between;
             width: 1110px;
+            margin: 0 auto;
             padding: 42px 0;
             font-size: 14px;
             color: #ffffff;
 
             .header-main-left {
-                width: 50%;
+                width: 40%;
                 display: flex;
-                justify-content: space-between;
-                margin: 0;
+                justify-content: flex-start;
 
                 .main-logo {
                     display: flex;
-                    justify-content: space-between;
+                    justify-content: flex-start;
+                    border-right: 1px solid #F2F2F2;
+                    width: 200px;
+                    cursor: pointer;
                 }
 
                 .main-geo {
                     display: flex;
-                    justify-content: space-between;
+                    justify-content: flex-end;
+                    width: 180px;
+
+                    p {
+                        width: 100px;
+                        padding: 0 0 0 13px;
+                        cursor: pointer;
+                    }
                 }
             }
 
             .header-main-rigth {
-                width: 50%;
-                margin: 0;
+                width: 40%;
 
                 ul {
                     display: flex;
@@ -58,6 +71,7 @@ body {
                     list-style-type: none;
                     font-size: 14px;
                     color: #FFFFFF;
+                    cursor: pointer;
                 }
             }
         }
