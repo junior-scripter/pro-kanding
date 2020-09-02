@@ -20,4 +20,46 @@ body {
             font-size: 12px;
         }
     }
+    .header-main {
+        background-color: #2F343A;
+
+        .main-content {
+            display: flex;
+            justify-content: space-between;
+            width: 1110px;
+            padding: 42px 0;
+            font-size: 14px;
+            color: #ffffff;
+
+            .header-main-left {
+                width: 50%;
+                display: flex;
+                justify-content: space-between;
+                margin: 0;
+
+                .main-logo {
+                    display: flex;
+                    justify-content: space-between;
+                }
+
+                .main-geo {
+                    display: flex;
+                    justify-content: space-between;
+                }
+            }
+
+            .header-main-rigth {
+                width: 50%;
+                margin: 0;
+
+                ul {
+                    display: flex;
+                    justify-content: space-between;
+                    list-style-type: none;
+                    font-size: 14px;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
 }
