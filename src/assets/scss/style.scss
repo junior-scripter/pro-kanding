@@ -140,10 +140,23 @@ body {
         .products-left {
             background: #393F47;
             width: 700px;
+            padding: 120px 0 120px 0;
+            position: relative;
 
             .left-content {
                 display: flex;
                 flex-direction: column;
+                height: 321px;
+                width: 400px;
+                position: absolute;
+                margin: 0;
+                padding-left: 170px;
+
+                .title-border {
+                    border-top: 6px solid #C8A35F;
+                    width: 90px;
+                    flex-grow: 1;
+                }
 
                 .left-title {
                     font-weight: bold;
@@ -154,23 +167,17 @@ body {
                     color: #FFFFFF;
                     flex-grow: 1;
 
-                    .title-border {
-                        border-top: 2px solid #C8A35F;
-                        width: 90px;
-                        flex-shrink: 1;
-                    }
-
-                    .left-description {
-                        font-style: normal;
-                        font-weight: normal;
-                        font-size: 18px;
-                        line-height: 28px;
-                        color: #FFFFFF;
-                    }
+                }
+                .left-description {
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 28px;
+                    color: #FFFFFF;
+                    flex-grow: 1;
                 }
 
                 .left-button {
-
 
                     button {
                         font-style: normal;
@@ -198,6 +205,21 @@ body {
         .products-right {
             background: #393F47;
             width: 700px;
+
+            .forward {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 25px;
+                text-align: center;
+                letter-spacing: 0.1em;
+                text-transform: uppercase;
+                color: #C8A35F;
+            }
+
+            .image-avto {
+
+            }
         }
     }
 }
