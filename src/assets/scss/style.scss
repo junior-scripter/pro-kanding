@@ -240,7 +240,6 @@ body {
     .services-content {
         width: 1108px;
         height: 504px;
-        align-items: center;
         display: flex;
         flex-direction: column;
 
@@ -271,12 +270,30 @@ body {
                     width: 276px;
                     height: 180px;
                     background: #C8A35F;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
 
                     .elips  {
 
-                        .air {
-                            align-items: center;
+                        svg {
+
                         }
+
+                            .air {
+                                padding: 20px;
+                                }
+                    }
+
+                    .card_1_text {
+                        font-weight: bold;
+                        font-size: 18px;
+                        line-height: 22px;
+                        text-align: center;
+                        letter-spacing: 0.05em;
+                        text-transform: uppercase;
+                        color: #FFFFFF;
+
                     }
                 }
             }
