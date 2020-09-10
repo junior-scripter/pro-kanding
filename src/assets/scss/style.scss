@@ -197,6 +197,7 @@ body {
                         width: 220px;
                         height: 55px;
                         border: aliceblue;
+                        cursor: pointer;
                     }
                 }
             }
@@ -278,6 +279,7 @@ body {
                     display: flex;
                     flex-direction: column;
                     align-items: center;
+                    cursor: pointer;
 
                     .elips {
                         margin-top: 35px;
@@ -307,6 +309,7 @@ body {
                     background: #393F47;
                     align-items: center;
                     margin-top: 1px;
+                    cursor: pointer;
 
                     .air2 {
                         margin-top: 55px;
@@ -336,6 +339,7 @@ body {
     position: relative;
     width: 100%;
     background-color: #2F343A;
+    height: 602px;
 
     .company_centr {
         position: relative;
@@ -356,6 +360,7 @@ body {
             display: flex;
             flex-direction: column;
             width: 445px;
+            margin-right: 65px;
 
             .left-border {
                 border-top: 6px solid #C8A35F;
@@ -401,6 +406,7 @@ body {
                         background: #FFFFFF;
                         border: 0.25px solid #C8A35F;
                         box-sizing: border-box;
+                        cursor: pointer;
 
                         .number-bg1 {
                             font-weight: bold;
@@ -436,11 +442,104 @@ body {
                     }
 
                     .card_bg1_img {
-                        background: url("img\avtoicon.jpg");
-
+                        background: url("../img/avtoicon.jpg");
+                        border: 0.25px solid #C8A35F;
+                        box-sizing: border-box;
+                        width: 200px;
+                        height: 160px;
+                        cursor: pointer;
                     }
                 }
             }
+        }
+    }
+}
+
+.maps {
+    width: 100%;
+    height: 450px;
+    top: 2672px;
+    background: linear-gradient(0deg, rgba(57, 63, 71, 0.6), rgba(57, 63, 71, 0.6)), url("../img/maps.png");
+
+}
+
+.footer {
+    width: 100%;
+    height: 161px;
+    background: #C8A35F;
+    position: relative;
+
+    .footer_content {
+        width: 1086px;
+        display: flex;
+        justify-content: space-between;
+        top: 65px;
+        position: absolute;
+        left: calc(50% - 550px);
+
+        .logo {
+            margin-right: 30px;
+            width: 160px;
+            cursor: pointer;
+        }
+
+        .address {
+            display: flex;
+            flex-direction: column;
+            margin-right: 89px;
+            padding-top: 5px;
+
+            .address_fakt {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 16px;
+                color: #F2F2F2;
+                opacity: 0.8;
+                cursor: pointer;
+            }
+
+            .address_mail {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 16px;
+                color: #2F343A;
+                cursor: pointer;
+                margin-top: 10px;
+            }
+        }
+
+        .phone_footer {
+            display: flex;
+            flex-direction: column;
+            width: 291px;
+
+            .phone1, .phone2 {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 16px;
+                color: #F2F2F2;
+                cursor: pointer;
+                padding-top: 5px;
+            }
+
+            .phone2 {
+                margin-top: 10px;
+            }
+        }
+        .website {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            text-align: right;
+            text-decoration-line: underline;
+            color: #2F343A;
+            width: 184px;
+            cursor: pointer;
+            padding-top: 25px;
         }
     }
 }
