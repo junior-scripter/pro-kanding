@@ -383,5 +383,64 @@ body {
                 }
             }
         }
+
+        .company-right {
+            width: 260px;
+
+            .cards-company {
+                display: flex;
+                justify-content: space-between;
+
+                .card_bg {
+                    display: flex;
+                    flex-direction: column;
+
+                    .card_bg1 {
+                        width: 200px;
+                        height: 160px;
+                        background: #FFFFFF;
+                        border: 0.25px solid #C8A35F;
+                        box-sizing: border-box;
+
+                        .number-bg1 {
+                            font-weight: bold;
+                            font-size: 64px;
+                            line-height: 75px;
+                            text-align: center;
+                            letter-spacing: 0.05em;
+                            text-transform: uppercase;
+                            color: #2F343A;
+                            margin-top: 15px;
+                        }
+
+                        .title-bg1 {
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 18px;
+                            line-height: 21px;
+                            text-align: center;
+                            letter-spacing: 0.05em;
+                            color: #000000;
+                            margin-bottom: 15px;
+                        }
+
+                        .subtitle-bg1 {
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 12px;
+                            line-height: 14px;
+                            text-align: center;
+                            color: #000000;
+                            margin-bottom: 25px;
+                        }
+                    }
+
+                    .card_bg1_img {
+                        background: url("img\avtoicon.jpg");
+
+                    }
+                }
+            }
+        }
     }
 }
